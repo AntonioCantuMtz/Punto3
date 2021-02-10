@@ -1,0 +1,34 @@
+/*Punto 1*/
+label{
+    /*Editamos los label*/
+    font-family: cursive;
+    color: #34495e;
+    font-size: 20px;
+}
+/*para los campos de entrada*/
+#nombre{
+    border-radius: 10px;
+    border-color: chartreuse;
+}
+#apellidos{
+    border-radius: 10px;
+    border-color: darkblue;
+}
+#edad{
+    border-radius: 10px;
+    border-color: darkmagenta;
+}
+#fechaNacimiento{
+    border-radius: 10px;
+    border-color: darkturquoise;
+}
+#usuario{
+    border-radius: 10px;
+    border-color: red;
+}
+#psw{
+    border-radius: 10px;
+    border-color: seagreen;
+}
+/**/
+/**/

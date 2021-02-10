@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina para el curso de .NET Core"/>
+    <link rel="stylesheet" href="estilos2.css"/>
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Formulario para la creacion de una nueva cuenta </h1>
+    <form action="" id="myForm">
+        <div>
+            <div>
+                <label for="nombre">Nombres</label>
+                <input type="text" placeholder="Introduzca sus nombres" id="nombre" required>
+            </div>
+            <br>
+            <div>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" placeholder="Ingrese sus apellidos" id="apellidos" required>
+            </div>
+            <br>
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" placeholder="Ingrese sus edad" id="edad" required>
+            </div>
+            <br>
+            <div>
+                <label for="fechaNacimiento">Fecha de nacimiento</label>
+                <input type="date" placeholder="Fecha de nacimiento" id="fechaNacimiento" required>
+            </div>
+            <br>
+        </div>
+        <div>
+            <label>Sexo</label>
+
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="femenino" name="sexo" value="femenino">
+            <label for="femenino">Femenino</label>
+
+            <input type="radio" id="otro" name="sexo" value="otro">
+            <label for="otro">Otro</label>
+        </div>
+        <br>
+        <div>
+            <label for="usuario">Usuario</label>
+            <input type="text" placeholder="Nombre de usuario" id="usuario" required>
+        </div>
+        <br>
+        <div>
+            <label for="psw">Contraseña</label>
+            <input type="password" placeholder="Contraseña" id="psw" required>
+        </div>
+        <br>
+        <!--Agregamos otro div para la opcion de recordar la contraseña-->
+        <div>
+            <input type="checkbox">Recordar la contraseña 
+        </div>
+        <br>
+        <!---->
+        <div>
+            <button type="button">Cancelar</button>
+            <button type="submit">Crear cuenta</button>
+        </div>
+    </form>
+    <br><br>
+    <!--
+    <a href="Index.html">
+        <button>
+            Boton que lleva a la pagina index del Laboratorio 1
+        </button>
+    </a>
+    -->
+    <br><br>
+
+    <script src="Registro.js"></script>
+
+    <!--Agregamos codigo JS-->
+    <!--<script>
+        document.getElementById("myForm")
+            .addEventListener('submit', MostrarDatos);
+        
+        function MostrarDatos()
+        {
+            var nombre = document.getElementById("nombre").value;
+
+            var apellidos = document.getElementById("apellidos").value;
+
+            var edad = document.getElementById("edad").value;
+
+            var fechaNacimiento = document.getElementById("fechaNacimiento").value;
+
+            var usuario = document.getElementById("usuario").value;
+
+            var psw = document.getElementById("psw").value;
+            
+            /*alert(
+                'nombre: ' +nombre+ '\n' +
+                'apellidos: ' +apellidos+ '\n' +
+                'edad: ' +edad+ '\n' +
+                'fechaNacimiento: ' +fechaNacimiento+ '\n' +
+                'usuario: ' +usuario+ '\n' +
+                'password: ' +psw
+            );*/
+            //document.write("Nombre: "+nombre+" || Apellido: "+apellidos+" || Edad: "+edad+" || Fecha de nacimiento: "+fechaNacimiento+" || Usuario: "+usuario+" || Password: "+psw);
+        }
+    </script>-->
+</body>
+</html>

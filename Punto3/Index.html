@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina para el curso de .NET Core">
+    <link rel="stylesheet" href="estilos.css"/>
+    <title>HTML5 Basic Structure</title>
+</head>
+<body>
+    <header>
+        <h1>Logo</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Wikipedia</li>
+            <li>Google</li>
+        </ul>
+    </nav>
+    <!--Creamos un nuevo boton-->
+    <button id="btnClic">Haz clic aquí</button>
+    <section>
+        <article id="articulo1">
+            <h1>HTML5</h1>
+            <p>HTML5 es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis 
+                para HTML: una «clásica», HTML, conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con 
+                sintaxis XML. Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo.</p>
+        </article>
+        <aside class="aside">
+            <form action="https://www.w3schools.com/html/default.asp">
+                <button>
+                    Más información
+                </button>
+            </form>
+        </aside><hr>
+        <article id="articulo2">
+            <h1>JavaScript</h1>
+            <p>JavaScript(JS) es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo(just-in-time) confunciones de 
+            primera clase. Si bien es más conocido como un lenguaje de scripting(secuencias de comandos) para páginas web, y es usado en muchos 
+            entornos fuera del navegador, tal como Node. js, Apache CouchD By Adobe Acrobat.
+            JavaScript es un lenguaje de programación basada en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para 
+            programación orientada a objetos, imperativa y declarativa(por ejemplo programación funcional).</p>
+        </article>
+        <aside class="aside">
+            <h4>Más información</h4>
+        </aside>
+        <hr>
+        <article id="articulo3">
+            <h1>C#</h1>
+            <p>"C#" (pronuncia dosis harpen inglés) es un lenguaje de programación multi paradigma desarrollado y estandarizado por la empresa
+                Microsoft comoparte de su plataforma.NET, que después fuea probado como un estándar por la ECMA(ECMA-334) e ISO(ISO/IEC23270). C# es uno de los
+                lenguajes de programación diseñados para la infraestructura de lenguaje común.</p>
+        </article>
+        <aside class="aside">
+            <h4>Más información</h4>
+        </aside><hr>
+        <article id="articulo4">
+                <h1>SQL</h1>
+                <p>SQL es un lenguaje de dominio específico utilizado en programación, diseñado para administrar apazos, y recuperar información de sistemas
+                de gestión de bases de datos relacionales. Una de sus principales características es el manejo del álgebra y el cálcul o relacional para efectuar
+                consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como realizar cambios en ellas.</p>
+        </article>
+        <aside class="aside">
+            <h4>Más información</h4>
+        </aside>
+        <hr>
+        <article id="articulo5">
+            <h1>.NETCore</h1>
+            <p>.NET Core es la plataforma de desarrollo de Microsoft más moderna, de código fuente abierto, multiplataforma y de alto 
+                rendimiento para la creación de todo tipo de aplicaciones. Esta arquitectura modular permite que podamos incluir únicamente 
+                lo necesario que requieren nuestras aplicaciones, haciendo que tengan un peso menor a la hora de ser desplegadas y que sea 
+                más sencilla su actualización através de updates de NuGet.</p>
+        </article>
+        <aside class="aside">
+            <h4>Más información</h4>
+        </aside>
+        <hr>
+    </section>
+    <aside class="info">
+        <h4>Te podría interesar</h4>
+        <section>W3Schools</section>
+        <section>HTML5 Test</section>
+        <section>Bootstrap</section>
+    </aside>
+    <footer id="infoAdicional">
+        <p>Copyright 2021 Fábrica de Software FIME</p>
+    </footer>
+    
+    <script src="Index.js"></script>
+
+    <!--Agregamos codigo JavaScript-->
+    <!--<script>
+        /*En el siguiente codigo se hace lo mismo que el ejemplo anterior solo
+        que ahora la ventana emergente se pone dentro del JS*/
+        document.getElementById('btnClic')
+        .addEventListener('click', AlertaClic);
+
+        function AlertaClic()
+        {
+            alert("Haz hecho clic");
+        }
+    </script>-->    
+</body>
+</html>
